@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>요크</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700;900&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/pop_up.js"></script>
+    <script src="./js/smooth.js"></script>
+    <script src="./js/scroll.js"></script>
+
+    <link rel="stylesheet" href="./css/sub2.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <nav>
+                <ul>
+                    <li><a href="./sub1.html">ABOUT
+                            <ul class="sub">
+                                <li class="orange"></li>
+                                <li><a href="./sub1.html">요크 소개<span class="solid"><span></a></li>
+                                <li><a href="./sub1.html#brand_identity">브랜드 컨셉<span class="solid"></span></a></li>
+                                <li><a href="./sub1.html#map">오시는 길<span class="solid"></span></a></li>
+                            </ul>
+                        </a></li>
+                    <li><a href="./sub2.html">SHOP
+                            <ul class="sub">
+                                <li class="orange"></li>
+                                <li><a href="./sub2.html#pudding">푸딩<span class="solid"></span></a></li>
+                                <li><a href="./sub2.html#dessert">디저트<span class="solid"></span></a></li>
+                                <li><a href="./sub2.html#lifestyle">라이프스타일<span class="solid"></span></a></li>
+                            </ul>
+                        </a></li>
+                    <h1 class="logo"><a href="./index.html"><img src="./images/logo.png" alt="요크 로고"></a></h1>
+                    <li><a href="./sub3.html">COMMUNITY
+                            <ul class="sub">
+                                <li class="orange"></li>
+                                <li><a href="./sub3.html#review">리뷰<span class="solid"></span></a></li>
+                                <li><a href="./sub3.html#event">이벤트<span class="solid"></span></a></li>
+                                <li><a href="./sub3.html#notice">공지<span class="solid"></span></a></li>
+                                <li><a href="./sub3.html#faq">문의<span class="solid"></span></a></li>
+                            </ul>
+                        </a></li>
+                    <li><a href="./sub4.html">MEMBERS</a></li>
+                    <li>
+                        <ul class="link">
+                            <li><a href="#" class="heart"><img src="./images/icon_heart.png" alt="위시리스트"></a></li>
+                            <li><a href="#" class="cart"><img src="./images/icon_cart.png" alt="장바구니"></a></li>
+                            <li><a href="#" class="mypage"><img src="./images/icon_mypage.png" alt="마이페이지"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="container" class="clearfix">
+        <div id="left_box" class="fixed_box">
+            <div class="border_box1">
+                <div class="border_box2">
+                    <h1>shop</h1>
+                    <ul class="lnb">
+                        <li><a href="./sub2.html#pudding">푸딩<span class="solid"></span></a></li>
+                        <li><a href="./sub2.html#dessert">디저트<span class="solid"></span></a></li>
+                        <li><a href="./sub2.html#lifestyle">라이프스타일<span class="solid"></span></a></li>
+                    </ul>
+                    <img src="./images/yolk.png" alt="요크 캐릭터" class="yolk1">
+                </div>
+
+            </div>
+            <form action="#" method="post">
+                <p><label><input type="search" class="search"></label></p>
+            </form>
+        </div>
+
+        <div id="right_box">
+            <div id="pudding">
+                <h1>pudding</h1>
+                <ul class="pudding_pr">
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd1.jpg" alt="벚꽃 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>벚꽃 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                        <img src="./images/new.png" alt="신상품" class="new">
+                        <img src="./images/limited.png" alt="봄 시즌 한정" class="limited">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd2.jpg" alt="커스터드 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>커스터드 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd3.jpg" alt="우유 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>우유 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd4.jpg" alt="초콜릿 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>초콜릿 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd5.jpg" alt="딸기 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>딸기 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd6.jpg" alt="녹차 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>녹차 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd7.jpg" alt="치즈 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>치즈 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd8.jpg" alt="레몬 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>레몬 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd9.jpg" alt="망고 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>망고 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd10.jpg" alt="유자 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>유자 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd11.jpg" alt="메론 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>메론 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd12.jpg" alt="체리 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>체리 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd13.jpg" alt="단호박 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>단호박 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd14.jpg" alt="고구마 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>고구마 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/pd15.jpg" alt="흑임자 푸딩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>흑임자 푸딩</h3>
+                            <p>3,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- pudding -->
+
+            <div id="dessert">
+                <h1>dessert</h1>
+                <ul class="dessert_pr">
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds1.jpg" alt="에그타르트">
+                        </div>
+                        <div class="pr_text">
+                            <h3>에그타르트</h3>
+                            <p>2,500원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds2.jpg" alt="미니 로투스 케이크">
+                        </div>
+                        <div class="pr_text">
+                            <h3>미니 로투스 케이크</h3>
+                            <p>10,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds3.jpg" alt="키토 레몬타르트">
+                        </div>
+                        <div class="pr_text">
+                            <h3>키토 레몬타르트</h3>
+                            <p>25,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds4.jpg" alt="우유 생크림케이크">
+                        </div>
+                        <div class="pr_text">
+                            <h3>우유 생크림케이크</h3>
+                            <p>30,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds5.jpg" alt="체리 조각케이크">
+                        </div>
+                        <div class="pr_text">
+                            <h3>체리 조각케이크</h3>
+                            <p>4,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds6.jpg" alt="브라우니">
+                        </div>
+                        <div class="pr_text">
+                            <h3>브라우니</h3>
+                            <p>2,500원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds7.jpg" alt="크렘브륄레">
+                        </div>
+                        <div class="pr_text">
+                            <h3>크렘브륄레</h3>
+                            <p>4,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds8.jpg" alt="초코칩 청크쿠키">
+                        </div>
+                        <div class="pr_text">
+                            <h3>초코칩 청크쿠키</h3>
+                            <p>2,500원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ds9.jpg" alt="요크 수제 우유">
+                        </div>
+                        <div class="pr_text">
+                            <h3>요크 수제 우유</h3>
+                            <p>4,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                </ul>
+            </div><!-- dessert -->
+
+            <div id="lifestyle">
+                <h1>life style</h1>
+                <ul class="lifestyle_pr">
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ls1.jpg" alt="요크 머그컵">
+                        </div>
+                        <div class="pr_text">
+                            <h3>요크 머그컵</h3>
+                            <p>15,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ls2.jpg" alt="요크 패브릭 백">
+                        </div>
+                        <div class="pr_text">
+                            <h3>요크 친환경 패브릭 백</h3>
+                            <p>15,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ls3.jpg" alt="요크 핀버튼">
+                        </div>
+                        <div class="pr_text">
+                            <h3>요크 핀버튼</h3>
+                            <p>1,500원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ls4.jpg" alt="요크 푸딩 패키지 스티커 팩">
+                        </div>
+                        <div class="pr_text">
+                            <h3>요크 푸딩 패키지 스티커 팩</h3>
+                            <p>15,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                        <img src="./images/hot.png" alt="인기 상품" class="hot">
+                    </li>
+                    <li>
+                        <div class="pr_img">
+                            <img src="./images/ls5.jpg" alt="요크 핸드타올">
+                        </div>
+                        <div class="pr_text">
+                            <h3>요크 핸드타올</h3>
+                            <p>15,000원</p>
+                            <div class="btn">
+                                <a class="more btn-detail btn-bubble">
+                                    자세히 보기
+                                    <span class="btn-bubble-inner">
+                                        <span class="btn-bubble-itembox">
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                            <span class="btn-bubble-item"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                                <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>
+            </div><!-- life style -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_inner">
+            <div class="footer_top">
+                <h1><a href="#"><img src="./images/footer_logo.png" alt="요크 푸터 로고"></a></h1>
+                <ul class="sns">
+                    <li class="instagram"><a href="#"><img src="./images/instagram.png" alt="인스타그램"></a></li>
+                    <li class="twitter"><a href="#"><img src="./images/twitter.png" alt="트위터"></a></li>
+                    <li class="kakaotalk"><a href="#"><img src="./images/kakaotalk.png" alt="카카오톡"></a></li>
+                </ul>
+            </div>
+            <ul class="footer_text">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#"><b>개인정보처리방침</b></a></li>
+                <li><a href="#">이메일 무단수집</a></li>
+                <li><a href="#">서비스 이용약관</a></li>
+                <li><a href="#">배송정책</a></li>
+                <li><a href="#">1:1 문의</a></li>
+            </ul>
+            <p>
+                부산광역시 수영구 광안해변로344번길 17-3 | 고객센터
+                1644-1010 | 이메일 문의 yolk@puddingyolk.co.kr<br>
+                대표이사 김요크 | 사업자등록번호 10-10-220817 | 통신판매업신고 제 2022-부산수영-0817호
+            </p>
+            <p class="copyright">ⓒ YOLK, All rights Reserved.</p>
+        </div>
+    </footer>
+    <a href="#"><img src="./images/top.png" alt="위로가기" class="top_btn"></a>
+
+    <div class="pop_up">
+        <div class="pop_up_box">
+            <dl>
+                <dt><img src="./images/cherryblossom.png" alt="벚꽃 푸딩"></dt>
+                <dd>
+                    <h1>벚꽃 푸딩</h1>
+                    <h3>3,000원</h3>
+                    <p>봄바람 휘날리며~<br> 따스한 봄 날씨처럼 부드럽고 향기로운 벚꽃절임을 사용해 만든 벚꽃 푸딩입니다.</p>
+                    <div class="btn">
+                        <a class="more btn-detail btn-bubble">
+                            구매하기
+                            <span class="btn-bubble-inner">
+                                <span class="btn-bubble-itembox">
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                    <span class="btn-bubble-item"></span>
+                                </span>
+                            </span>
+                        </a>
+                        <a href="#" class="heart2"><img src="./images/icon_heart.png" alt="위시리스트"></a>
+                        <a href="#" class="cart2"><img src="./images/icon_cart.png" alt="장바구니"></a>
+                    </div>
+                </dd>
+            </dl>
+            <p class="kcal">총 내용량 150ml · 201Kcal</p>
+            <table>
+                <tr>
+                    <td><b>나트륨</b> 80mg 4%</td>
+                    <td><b>탄수화물</b> 16g 5%</td>
+                    <td><b>당류</b> 10g 10%</td>
+                    <td><b>지방</b> 10g 19%</td>
+                </tr>
+                <tr>
+                    <td><b>트랜스지방</b> 80mg 4%</td>
+                    <td><b>포화지방</b> 6g 40%</td>
+                    <td><b>콜레스테롤</b> 70mg 23%</td>
+                    <td><b>단백질</b> 3g 5%</td>
+                </tr>
+            </table>
+            <a href="#none" class="close"><img src="./images/close.png" alt="닫기"></a>
+        </div>
+    </div>
+</body>
+
+</html>
