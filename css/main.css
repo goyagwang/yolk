@@ -224,8 +224,9 @@ nav>ul>li:nth-child(1) {
 
 .pudding_slide_inner {
     display: flex;
+    justify-content: space-between;
     width: 400%;
-    animation: rotate 50s linear infinite;
+    animation: rotate 50s linear infinite alternate;
 }
 
 @keyframes rotate {
