@@ -40,6 +40,7 @@ body {
     letter-spacing: -0.5px;
     color: #1b2021;
     background-color: #fcf4d8;
+    overflow-x: hidden;
 }
 
 ::selection {
