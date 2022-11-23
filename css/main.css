@@ -30,6 +30,7 @@ img {
 }
 
 body {
+    min-width: 1450px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -160,9 +161,6 @@ nav>ul>li:nth-child(1) {
 }
 
 /*main_banner*/
-#main_banner img {
-    width: 100%;
-}
 
 .main_banner_next,
 .main_banner_prev {
@@ -173,22 +171,41 @@ nav>ul>li:nth-child(1) {
     background-color: #d36c12;
 }
 
-.bn2 {
+.bn1 {
+    background: url(../images/main_banner1.jpg) no-repeat center center;
+    height: 800px;
     position: relative;
+}
+
+.bn2 {
+    background: url(../images/main_banner2.jpg)no-repeat center center;
+    height: 800px;
+}
+
+.bn3 {
+    background: url(../images/main_banner3.jpg)no-repeat center center;
+    height: 800px;
+}
+
+.bn4 {
+    background: url(../images/main_banner4.jpg)no-repeat center center;
+    height: 800px;
 }
 
 .btn1 {
     z-index: 2;
     position: absolute;
-    left: 1146px;
-    top: 580px;
+    left: 50%;
+    bottom: 150px;
+    transform: translateX(100px);
 }
 
 .btn2 {
     z-index: 2;
     position: absolute;
-    left: 1440px;
-    top: 580px;
+    left: 50%;
+    bottom: 150px;
+    transform: translateX(350px);
 }
 
 /*container1*/
