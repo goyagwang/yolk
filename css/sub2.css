@@ -550,7 +550,7 @@ footer {
 .pop_up_box {
     background-color: #fff;
     width: 650px;
-    height: 560px;
+    height: 530px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -603,11 +603,11 @@ footer {
 .pop_up_box table {
     width: 100%;
     border-collapse: collapse;
-    border-top: 1px dotted #d36c12;
+    border-top: 1px solid #d36c12;
 }
 
 .pop_up_box table td {
-    border-bottom: 1px dotted #d36c12;
+    border-bottom: 1px solid #d36c12;
     padding: 10px 0;
     color: #d36c12;
 }
