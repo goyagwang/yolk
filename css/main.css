@@ -230,7 +230,7 @@ nav>ul>li:nth-child(1) {
 }
 
 .pudding_slide {
-    width: 200%;
+    width: 100%;
     overflow: hidden;
     margin-top: 50px;
 }
@@ -241,9 +241,9 @@ nav>ul>li:nth-child(1) {
 
 .pudding_slide_inner {
     display: flex;
-    justify-content: space-between;
-    width: 400%;
-    animation: rotate 50s linear infinite alternate;
+    justify-content: space-around;
+    width: 7902px;
+    animation: rotate 25s linear infinite;
 }
 
 @keyframes rotate {
@@ -252,13 +252,14 @@ nav>ul>li:nth-child(1) {
     }
 
     100% {
-        margin-left: -200%;
+        margin-left: -3951px;
     }
 }
 
 .pudding_slide_inner ul {
     display: flex;
     justify-content: space-around;
+    width: 3951px;
 }
 
 .pudding_slide_inner ul li {
