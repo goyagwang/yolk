@@ -549,6 +549,7 @@ nav>ul>li:nth-child(1) {
     color: #fcf4d8;
     width: 170px;
     height: 50px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 25px;
     background: transparent;
@@ -573,6 +574,7 @@ nav>ul>li:nth-child(1) {
     position: relative;
     display: block;
     height: 100%;
+    -webkit-filter: url("#bubble-start");
     filter: url("#bubble-start");
 }
 
@@ -583,33 +585,42 @@ nav>ul>li:nth-child(1) {
     height: 100%;
     background: #fcf4d8;
     border-radius: 100%;
+    -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
     transform: translate3d(0, 150%, 0) scale(1.7);
+    -webkit-transition: -webkit-transform 0.45s;
+    transition: -webkit-transform 0.45s;
     transition: transform 0.45s;
+    transition: transform 0.45s, -webkit-transform 0.45s;
 }
 
-@supports ((filter: url("#bubble-start"))) {
+@supports ((-webkit-filter: url("#bubble-start")) or (filter: url("#bubble-start"))) {
     .btn-bubble .btn-bubble-item {
+        -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
         transform: translate3d(0, 150%, 0) scale(1.4);
     }
 }
 
 .btn-bubble .btn-bubble-item:nth-of-type(1) {
     left: 0%;
+    -webkit-transition-delay: 0s;
     transition-delay: 0s;
 }
 
 .btn-bubble .btn-bubble-item:nth-of-type(2) {
     left: 30%;
+    -webkit-transition-delay: 0.08s;
     transition-delay: 0.08s;
 }
 
 .btn-bubble .btn-bubble-item:nth-of-type(3) {
     left: 60%;
+    -webkit-transition-delay: 0.16s;
     transition-delay: 0.16s;
 }
 
 .btn-bubble .btn-bubble-item:nth-of-type(4) {
     left: 90%;
+    -webkit-transition-delay: 0.24s;
     transition-delay: 0.24s;
 }
 
@@ -618,11 +629,13 @@ nav>ul>li:nth-child(1) {
 }
 
 .btn-bubble:hover .btn-bubble-item {
+    -webkit-transform: translateZ(0) scale(1.7);
     transform: translateZ(0) scale(1.7);
 }
 
-@supports ((filter: url("#bubble-start"))) {
+@supports ((-webkit-filter: url("#bubble-start")) or (filter: url("#bubble-start"))) {
     .btn-bubble:hover .btn-bubble-item {
+        -webkit-transform: translateZ(0) scale(1.4);
         transform: translateZ(0) scale(1.4);
     }
 }
